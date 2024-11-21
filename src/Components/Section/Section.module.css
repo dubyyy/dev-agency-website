@@ -1,0 +1,146 @@
+
+.contentText a{
+    color: white;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 14rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    align-items: start;
+}
+
+.contentHeader{
+    font-size: 3.8rem;
+}
+.contentText{
+    font-size: 1.4rem;
+}
+.content button{
+    border-radius: 5rem;
+    height: 4.3rem;
+    width: 70rem;
+    border: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        
+        margin-top: 4rem;
+        padding: 1.5rem;
+        text-align: center;
+    }      
+  }
+ 
+  @media only screen and (max-width: 480px) {
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentHeader{
+        font-size: 2rem;
+    }
+    .content button{
+       
+        width: 17rem;
+        
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .contentHeader{
+        font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .contentHeader{
+        font-size: 1.5rem;
+    }
+  } @media only screen and (max-width: 1224px) {
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentHeader{
+        font-size: 3rem;
+    }
+    .content button{
+       
+        width: 17rem;
+
+
+  }
+}
+
+@media only screen and (max-width: 680px) {
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentHeader{
+        font-size: 2rem;
+    }
+    .content button{
+       
+        width: 17rem;
+
+
+  }
+}
+
+@media only screen and (max-width: 385px) {
+   
+    .contentHeader{
+        font-size: 1.5rem;
+    }
+    .contentText{
+        font-size: .9rem;
+    }
+    
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .backgroundDiv {
+      height: 100vh;
+    }
+  }
+  @media (min-aspect-ratio: 1/1) {
+    .backgroundDiv {
+        height: 126vh;
+      }
+  }
+  
+  @media only screen and (min-width: 1500px) {
+    .content{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+    }
+    .content button{
+        border-radius: 5rem;
+        height: 8rem;
+        width: 70rem;
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .backgroundDiv {
+        height: 100vh;
+      }
+    
+  }

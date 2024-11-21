@@ -1,0 +1,148 @@
+.container{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.work{
+    display: grid;
+    width: 90%;
+    
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    column-gap: 2rem;
+    row-gap: 1rem;
+    padding: 2rem;
+    
+
+    
+}
+
+
+
+.info {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box button{
+    color: white;
+    background-color: #0565ff;
+    border:0;
+    border-radius: 5rem;
+    height:3.5rem;
+    width: 22.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.box span{
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.info div{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+
+}
+.info >div>span{
+    
+    font-size:0.95rem;
+    line-height:1.5rem;
+ }
+ @media only screen and (max-width: 450px) {
+    .work{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .box img{
+        transform: scale(0.9);
+    }
+    .box button{
+        transform: scale(0.8);
+    }
+   
+    
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .box img{
+        transform: scale(0.9);
+    }
+    .box button{
+        transform: scale(0.8);
+    }
+   
+    
+}
+@media only screen and (max-width: 390px) {
+    
+    
+    .box img{
+        transform: scale(0.75);
+    }
+    .box button{
+        transform: scale(0.75);
+    }
+   
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .work{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    
+        
+    }
+    .item{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .info {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+   
+    
+   
+    
+}
+
+@media only screen and (min-width: 1500px) {
+  
+  
+    .work{
+     
+        margin-top: 4rem;
+        grid-template-columns: repeat(3,minmax(300px, 1fr));
+       
+    
+        
+    }
+    
+}
+
+
